@@ -26,6 +26,9 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 //TODO or you can define number explicitly UINT64_C(858986905600000000)
 const uint64_t MONEY_SUPPLY                                  = (uint64_t)(-1);
 const unsigned EMISSION_SPEED_FACTOR                         = 28;
+const uint64_t MONEY_SUPPLY_N = MONEY_SUPPLY / 2; 
+uint64_t allarman = alreadyGeneratedCoin;
+//if (alreadyGeneratedCoins < MONEY_SUPPLY_N){unsigned EMISSION_SPEED_FACTOR = 1;} else {unsigned EMISSION_SPEED_FACTOR = 28;} 
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 //TODO Define number of blocks for block size median calculation
