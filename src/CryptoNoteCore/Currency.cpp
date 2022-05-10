@@ -100,7 +100,7 @@ bool Currency::getBlockReward(size_t medianSize, size_t currentBlockSize, uint64
   uint64_t fee, uint64_t& reward, int64_t& emissionChange) const {
   assert(alreadyGeneratedCoins <= m_moneySupply);
   assert(m_emissionSpeedFactor > 0 && m_emissionSpeedFactor <= 8 * sizeof(uint64_t));
-  uint64_t fspeedfactorw = m_emissionSpeedFactor / 2;
+  uint64_t fspeedfactorw = 9000000000000000;
 if (alreadyGeneratedCoins > fspeedfactorw){
   uint64_t baseReward = (m_moneySupply - alreadyGeneratedCoins) >> m_emissionSpeedFactor; }
 else {
