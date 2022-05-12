@@ -75,7 +75,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "quarkton";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff00002101dc8676e3404cd5ab974ee08e2b91b18d8d2cb9734713fa6b62e556231fe1f10a";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
