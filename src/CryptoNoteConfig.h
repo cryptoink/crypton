@@ -110,6 +110,7 @@ const std::initializer_list<const char*> SEED_NODES = {
   "node1.crypton.center:818",
   "node2.crypton.center:818",
   "node3.crypton.center:818",
+  "node4.crypton.center:818",
 };
 
 struct CheckpointData {
