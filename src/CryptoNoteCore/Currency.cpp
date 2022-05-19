@@ -107,8 +107,8 @@ if (alreadyGeneratedCoins < fspeedfactorw) {
   baseReward = 1000000000000000000; }
 else {
   baseReward = (m_moneySupply - alreadyGeneratedCoins) >> m_emissionSpeedFactorw; 
-if (baseReward > 1) {
-baseReward = 1; } 
+if (baseReward > 100000) {
+baseReward = 100000; } 
             }
 
   medianSize = std::max(medianSize, m_blockGrantedFullRewardZone);
