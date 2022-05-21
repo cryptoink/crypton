@@ -75,7 +75,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "quarkton";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001808090bbbad6adf00d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101eaf1e8dd8e56cf9e041211fec77aa0788f2a30db87247a5950a02eeedfe8b0c9";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -109,8 +109,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "7770f9a5a434a9f1
 const std::initializer_list<const char*> SEED_NODES = {
   "node1.crypton.center:818",
   "node2.crypton.center:818",
-  "node3.crypton.center:818",
-  "node4.crypton.center:818",
+  "node3.crypton.center:818"
 };
 
 struct CheckpointData {
