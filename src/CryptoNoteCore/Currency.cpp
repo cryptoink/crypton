@@ -108,8 +108,8 @@ if (alreadyGeneratedCoins < fspeedfactorw) {
 else {
   baseReward = (m_moneySupply - alreadyGeneratedCoins) >> m_emissionSpeedFactorw; 
   if (baseReward > 1010000) {
-    baseReward = 1000000; } else if (baseReward > 101000) {
-    baseReward = 100000; } 
+    baseReward = 100000; } else if (baseReward > 101000) {
+    baseReward = 10000; } 
    
 }
 
